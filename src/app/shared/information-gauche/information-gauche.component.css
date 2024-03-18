@@ -1,0 +1,62 @@
+.information-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding:3rem 1.5rem
+
+}
+
+.information-box div {
+  align-items: start;
+  justify-content: flex-end;
+  text-align: left;
+
+}
+
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ 
+}
+
+
+
+.img-information-gauche img {
+  width: 680px;
+  border-radius: 20px;
+
+}
+.text-information-container div {
+  display: flex;
+  flex-direction: column;
+  
+  
+
+
+}
+
+.text-information-container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 10px;
+  
+
+}
+
+.text-information-container h2 {
+  text-align: left;
+  padding: 0;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.text-information-container p {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}

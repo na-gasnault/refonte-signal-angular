@@ -8,6 +8,7 @@ import { AvantagesComponent } from './shared/avantages/avantages.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './shared/home/home.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { InformationGaucheComponent } from './shared/information-gauche/information-gauche.component';
 
 @Component({
   selector: 'app-root',
@@ -18,9 +19,11 @@ import { ButtonComponent } from './shared/button/button.component';
     BannerComponent,
     TitleComponent,
     InformationComponent,
+    InformationGaucheComponent,
     AvantagesComponent,
     FooterComponent,
-    ButtonComponent],
+    ButtonComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

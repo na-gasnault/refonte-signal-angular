@@ -3,14 +3,26 @@ html, body{
     margin: 0;
     padding :0;
     font-family: 'Inter';
+    
+    
+    
+    
 }
 
 main {
     width: 100%;
+    font-size: 20px;
 
 }
 section {
-    margin: 0 10em; 
+    margin: 0 10em;
+     
+}
+h1{
+   font-size:60px ; 
+}
+h2{
+    font-size: 40px;
 }
 a{
     text-decoration: none;

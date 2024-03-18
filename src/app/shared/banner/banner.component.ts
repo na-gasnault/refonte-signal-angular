@@ -11,10 +11,8 @@ import { ButtonComponent } from '../button/button.component';
 export class BannerComponent {
   @Input()
   title?: string;
-  ;
+  
   @Input()
   description?: string;
-  @Input()
-  imageSource?: string;
-  button?: string ;
+  
 }

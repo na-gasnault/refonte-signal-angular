@@ -1,19 +1,17 @@
-<p>home works!</p>
 <app-banner
-    [title]="'Deuxième Information'"
-  [imageSource]="'chemin/vers/votre/image2.jpg'"
-  [description]="'Ceci est le contenu de la deuxième information'"
+    [title]="'Exprimez-vous librement'"
+  [description]="'Dites « Bonjour » à une expérience de messagerie différente. Un accent inattendu sur la confidentialité et la protection des données personnelles, combiné à toutes les fonctions auxquelles vous vous attendez.'"
   >
 </app-banner>
 <app-title></app-title>
-<app-information [title]="'Partager sans insécurité'" [imageSource]="'../src/assets/animation.png'"
-    [content]="'Un chiffrement de bout en bout de pointe (propulsé par le protocole Signal à code source ouvert) assure la sécurité de vos conversations. Nous ne pouvons ni lire vos messages ni écouter vos appels, et personne d’autre que vous ne peut le faire. La confidentialité n’est pas proposée en option, c’est simplement la façon dont Signal fonctionne. Pour tous les messages, pour tous les appels, tout le temps.'"></app-information>
+<app-information [title]="'Partager sans insécurité'" imageSource="../../../assets/animation.png"
+    content="'Un chiffrement de bout en bout de pointe (propulsé par le protocole Signal à code source ouvert) assure la sécurité de vos conversations. Nous ne pouvons ni lire vos messages ni écouter vos appels, et personne d’autre que vous ne peut le faire. La confidentialité n’est pas proposée en option, c’est simplement la façon dont Signal fonctionne. Pour tous les messages, pour tous les appels, tout le temps.'"></app-information>
 <app-avantages></app-avantages>
 <app-information
     [title]="'Aucune publicité, aucun traqueur, vraiment.'"
-    [imageSource]="'url_de_l_image_1'"
+    imageSource="../../../assets/No-Ads.png"
     [content]="'Dans Signal, il n’y a aucune publicité, aucun vendeur partenaire, ni aucun système de suivi inquiétant. Vous pouvez vous consacrer à partager les moments importants avec les personnes qui comptent pour vous.'"></app-information>
-<app-information
+<app-information-gauche
     [title]="'Gratuit pour tous'"
-    [imageSource]="'url_de_l_image_1'"
-    [content]="'Signal est un organisme à but non lucratif indépendant. Nous ne sommes reliés à aucune entreprise technologique importante et nous ne pourrons jamais être achetés par l’une d’elles. Le développement de notre plateforme est financé par des subventions et des dons de personnes comme vous. '"></app-information>
+    imageSource="../../../assets/Nonprofit503.png"
+    [content]="'Signal est un organisme à but non lucratif indépendant. Nous ne sommes reliés à aucune entreprise technologique importante et nous ne pourrons jamais être achetés par l’une d’elles. Le développement de notre plateforme est financé par des subventions et des dons de personnes comme vous. '"></app-information-gauche>

@@ -1,0 +1,178 @@
+/*main {
+   
+    background-color: #9DBBF8;
+    
+
+}
+.banner-container{
+     display: flex;
+    flex-direction: row;
+    background-color: blue;
+
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 12;
+    text-align: start;
+    width: 40%;
+}
+
+.banner-img-container div{
+    width: auto;
+    height: auto;
+    background-color: red;
+    display: inline-block;
+   
+    
+    
+    
+    
+
+}
+
+.banner-img-container img {
+   
+ 
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    background-color: yellow;
+    
+    
+    main {
+    display: flex;
+    flex-direction: row;
+    background-color: #9DBBF8;
+    
+
+}
+.banner-container{
+    
+    background-color: blue;
+
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 12;
+    text-align: start;
+    width: 40%;
+}
+
+.banner-img-container div{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    
+    
+    
+    
+    
+
+}
+
+.banner-img-container img{
+   
+   
+    width: auto;
+    height: auto;
+    
+    background-color: yellow;
+    
+    
+    
+    
+    
+
+}
+
+.img-iphone-1 {  
+    
+    max-width: 320px;
+    
+   
+    
+}
+.img-iphone-2{
+    
+    max-width: 320px;
+   
+    padding-bottom: 5em;
+    transform: rotate(25deg);
+    
+}
+    
+    
+
+}
+
+*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #9DBBF8;
+}
+.banner {
+    margin-top: 46px;
+}
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    text-align: start;
+    width: 38%;
+    
+   
+}
+
+.banner-content h1{
+    
+    margin: 120px 0 24px 0;
+    line-height: 60px;
+    font-weight: 800;
+}
+.banner-content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.banner-img-container div {
+    width: auto;
+    height: auto;
+   
+    display: inline-block;
+}
+
+.banner-img-container img {
+    width: auto;
+    height: auto;
+    max-width: 320px;
+    
+}
+
+.img-iphone-1 {  
+    max-width: 320px;
+    transform: rotate(22.5deg);
+    margin-top: 46px;
+}
+
+.img-iphone-2 {
+    max-width: 300px;
+    padding-bottom: 5em;
+    transform: rotate(22.5deg);
+    position: absolute;
+    margin-left: -32px;
+    
+}
