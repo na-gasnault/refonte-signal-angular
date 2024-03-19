@@ -1,12 +1,12 @@
 <main>
   <section class="information-box">
 
-    <div class="text-information-container">
+    <div class="text-information-container"  >
       <h2>{{ title }}</h2>
-      <p class="content">{{ content }}</p>
+      <p class="content" [style.width]="boxSizeText">{{ content }}</p>
     </div>
 
-    <div class="information-container">
+    <div class="information-container" [style.margin-left]="imageTextGap">
       <div class="img-information-droite">
         <img src="{{imageSource}}" alt="Information titre">
       </div>

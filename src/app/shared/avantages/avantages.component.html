@@ -1,7 +1,10 @@
-<p>avantages works!</p>
-<div class="avantage-section">
-    <div class="avantage-item">
-      <img src="" alt="">
-      <h3>Avantage 1</h3>
-      <p>Ceci est le texte explicatif de l'avantage 1.</p>
+<main>
+  <section class="avantages-list">
+    <div class="cards-grid"> 
+      <app-card [title]="'Dites ce qui vous plaît'" imageCard="../../../assets/Media.png" content="Partagez gratuitement des textes, des messages vocaux, des photos, des vidéos et des GIF. Signal utilise la connexion de données de votre téléphone afin de vous éviter les frais relatifs à l’envoi de texto et de message multimédia"></app-card>
+    <app-card [title]="'Exprimez-vous librement'" imageCard="../../../assets/Calls.png" content="Passez des appels vocaux ou vidéo clairs avec des personnes qui vivent à l’autre bout de la ville ou du monde, sans frais supplémentaires"></app-card>
+    <app-card [title]="'Respectez votre vie privée'" imageCard="../../../assets/Stickers.png" content="Avec nos stickers chiffrés, exprimez-vous encore plus librement. Vous êtes même libre de créer et de partager vos propres packs de stickers."></app-card>
+    <app-card [title]="'Rassemblez-vous avec les groupes'" imageCard="../../../assets/Groups.png" content="Avec les conversations de groupe, restez facilement en contact avec votre famille, vos amis et vos collègues."></app-card>
     </div>
+  </section>
+</main>

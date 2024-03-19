@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './shared/home/home.component';
 import { ButtonComponent } from './shared/button/button.component';
 import { InformationGaucheComponent } from './shared/information-gauche/information-gauche.component';
+import { CardComponent } from './shared/card/card.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,8 @@ import { InformationGaucheComponent } from './shared/information-gauche/informat
     InformationGaucheComponent,
     AvantagesComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    CardComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

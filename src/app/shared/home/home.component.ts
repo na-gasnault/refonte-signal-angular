@@ -4,6 +4,7 @@ import { TitleComponent } from '../title/title.component';
 import { InformationComponent } from '../information/information.component';
 import { AvantagesComponent } from '../avantages/avantages.component';
 import { InformationGaucheComponent } from '../information-gauche/information-gauche.component';
+import { CardComponent } from '../card/card.component';
 
 
 @Component({
@@ -13,7 +14,9 @@ import { InformationGaucheComponent } from '../information-gauche/information-ga
     BannerComponent,
     TitleComponent,
     AvantagesComponent,
-    InformationComponent,InformationGaucheComponent
+    InformationComponent,
+    InformationGaucheComponent,
+    CardComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

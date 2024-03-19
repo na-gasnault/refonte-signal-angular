@@ -14,4 +14,8 @@ export class InformationComponent {
   imageSource?: string;
   @Input()
   content?: string;
+  @Input()
+  boxSizeText?: string;
+  @Input()
+  imageTextGap?: string;
 }
