@@ -5,6 +5,7 @@ import { InformationComponent } from '../information/information.component';
 import { AvantagesComponent } from '../avantages/avantages.component';
 import { InformationGaucheComponent } from '../information-gauche/information-gauche.component';
 import { CardComponent } from '../card/card.component';
+import { ButtonComponent } from '../button/button.component';
 
 
 @Component({
@@ -16,7 +17,8 @@ import { CardComponent } from '../card/card.component';
     AvantagesComponent,
     InformationComponent,
     InformationGaucheComponent,
-    CardComponent
+    CardComponent,
+    ButtonComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

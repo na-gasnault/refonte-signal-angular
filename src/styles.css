@@ -1,17 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
 html, body{
     margin: 0;
     padding :0;
     font-family: 'Inter';
-    
-    
-    
-    
+    background-color: var(--bleu);
 }
 
 main {
     width: 100%;
     font-size: 20px;
+    background-color: white;
 
 }
 section {
@@ -33,4 +30,8 @@ color: #2C6BED;
 }
 p{
     color: #1B1B1B;
+}
+
+:root{
+--bleu : #2C6BED;
 }

@@ -1,0 +1,20 @@
+.button-white{
+    display: inline-flex;
+    background-color: white;
+    border:none;
+    color:var(--bleu);
+    padding: 0.75rem ;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 1rem;
+    
+    
+}
+.button-white:hover{
+    background-color: white;
+    color: #1851B4;
+}

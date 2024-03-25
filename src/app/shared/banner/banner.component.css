@@ -160,12 +160,15 @@ main {
     height: auto;
     max-width: 320px;
     
+    
 }
 
 .img-iphone-1 {  
     max-width: 320px;
     transform: rotate(22.5deg);
     margin-top: 46px;
+    
+    
 }
 
 .img-iphone-2 {
@@ -175,4 +178,24 @@ main {
     position: absolute;
     margin-left: -32px;
     
+}
+
+.button-white{
+    display: inline-flex;
+    background-color: white;
+    border:none;
+    color:var(--bleu);
+    padding: 1rem  0.5rem 1rem 0.5rem;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    width: 28%;
+    
+    
+}
+.button-white:hover{
+    background-color: white;
+    color: #1851B4;
 }
