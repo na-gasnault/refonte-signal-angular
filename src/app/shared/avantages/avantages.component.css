@@ -1,6 +1,4 @@
-
-
- .avantages-list div {
+.avantages-list div {
    
    display: flex;
    flex-wrap: wrap;

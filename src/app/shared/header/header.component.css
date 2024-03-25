@@ -1,26 +1,25 @@
-main  {
+main {
     position: sticky;
     top: 0;
     min-height: 3.30rem;
     background-color: white;
     z-index: 1;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-direction: row;
-    height : 100%;
+    height: 100%;
     min-height: 3.30rem;
     padding-top: 16px;
     padding-bottom: 16px;
     align-items: center;
     justify-content: space-between;
-    
-    
-    
+
 }
 
-.logo{
-    width: 32%;   
+.logo {
+    width: 32%;
 }
 
 img {
@@ -29,11 +28,13 @@ img {
     height: auto;
 
 }
+
 .langue {
     display: flex;
     align-items: center;
     gap: 0.5em
 }
+
 .navigation {
     display: flex;
     height: 50px;
@@ -42,5 +43,5 @@ img {
     justify-content: right;
     font-weight: 300;
     font-size: 16px;
-    
+
 }

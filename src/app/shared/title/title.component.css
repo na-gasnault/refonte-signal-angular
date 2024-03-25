@@ -1,12 +1,13 @@
-.titre-content{
+.titre-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
-.titre-content h2{
+
+.titre-content h2 {
     margin: 0;
     padding-top: 3em;
 }

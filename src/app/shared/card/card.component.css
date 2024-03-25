@@ -8,7 +8,6 @@
 .column-content { 
     text-align: center;    
 }
-
 .box { 
     background-color: #FFFFFF;
     border-radius: 16px;
@@ -16,24 +15,23 @@
     background-color: white;
     max-width:600px;
     max-height: 500px;
-    padding: 30px;
-    
-    
+    padding: 30px;  
 }
 
 .box img {
     width: 370px;
 }
+
 .box h3{
    font-size: 28px;
    font-weight: 800;
    color:black;
    margin:0;
 }
+
 .box p{
     font-size: 16px;
     font-weight:300;
     line-height: 22px;
-    color: #4a4a4a;
-    
+    color: #4a4a4a;   
  }
