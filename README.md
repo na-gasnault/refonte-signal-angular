@@ -57,9 +57,5 @@ Ce projet consiste à recréer la page d'accueil d'un site web en utilisant des 
 ### 6. Utilisation de plus de variables CSS
 - Cela facilitera la maintenance du code et permettra d'apporter des modifications globales plus facilement.
 
-
 ## Conclusion
 La refonte de la page d'accueil a été une expérience enrichissante qui m'a permis de consolider mes connaissances en Angular et de développer mes compétences en CSS.
-
-
-
